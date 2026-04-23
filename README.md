@@ -130,6 +130,3 @@ UNKNOWN EMPLOYEE
 
 ---
 
-<p align="center">
-  💙 Built for Big Data Excellence 💙
-</p>
