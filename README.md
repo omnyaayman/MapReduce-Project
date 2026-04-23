@@ -1,12 +1,5 @@
-<h1 align="center">🚀 MapReduce Project</h1>
-
 <p align="center">
-  <b>Big Data Processing using Hadoop MapReduce</b><br>
-  <i>Task 7 & Task 15 Implementation</i>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=MapReduce+Project;Big+Data+Processing;Task+7+%7C+Task+15&center=true&width=500&height=50">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=🚀+MapReduce+Project;Task+7+%7C+Task+15;Big+Data+Processing+using+Hadoop&center=true&width=600&height=60">
 </p>
 
 ---
@@ -17,8 +10,8 @@ This project demonstrates how **Hadoop MapReduce** can efficiently process large
 
 It focuses on two main operations:
 
-* 🔹 Data Joining (Task 7)
-* 🔹 Data Partitioning & Analysis (Task 15)
+* 🔵 **Task 7: Employee Payroll Join**
+* 🟢 **Task 15: Age Group Partitioning**
 
 The solution is designed to be **scalable**, **robust**, and capable of handling **large datasets (1GB+)** with proper **data validation and error handling**.
 
@@ -28,29 +21,29 @@ The solution is designed to be **scalable**, **robust**, and capable of handling
 
 ### 💡 Concept
 
-This task performs a **join operation** between:
+Performs a **join operation** between:
 
 * Employee dataset
 * Payroll dataset
 
 ### ⚙️ Processing Logic
 
-* Match employee records with payroll data using `employeeId`
+* Match records using `employeeId`
 * Compute:
 
-  * 💰 **Total Pay = baseSalary + bonus**
-  * 📈 **Maximum Pay across all months per employee**
+  * 💰 Total Pay = baseSalary + bonus
+  * 📈 Max Pay per employee across months
 
 ### 📥 Sample Input
 
-```id="7j6kq2"
+```id="3j2m8l"
 EMP01, Nour, Hassan, Engineering
 PR001, EMP01, Jan, 8000, 500
 ```
 
 ### 📤 Sample Output
 
-```id="q0a1zd"
+```id="q4k1xs"
 EMP01 Nour Hassan,Engineering,Jan,8500,8700
 ```
 
@@ -60,11 +53,11 @@ EMP01 Nour Hassan,Engineering,Jan,8500,8700
 
 ### 💡 Concept
 
-This task analyzes demographic data by dividing records into **age groups**.
+Divides records into **age groups** for analysis.
 
 ### ⚙️ Processing Logic
 
-* Use a **Custom Partitioner** to distribute data into:
+* Uses **Custom Partitioner**:
 
   * 18–24
   * 25–34
@@ -72,19 +65,19 @@ This task analyzes demographic data by dividing records into **age groups**.
   * 45–54
   * 55+
 
-* Compute:
+* Computes:
 
-  * 📊 **Average Income per Age Group**
+  * 📊 Average Income per group
 
 ### 📥 Sample Input
 
-```id="cvt6ux"
+```id="a9m2pq"
 P001,25,3000,Employed,Bachelor
 ```
 
 ### 📤 Sample Output
 
-```id="vryy0v"
+```id="7r0k9d"
 25-34 Avg Income: 3166
 ```
 
@@ -100,7 +93,7 @@ P001,25,3000,Employed,Bachelor
 
 ## 📂 Project Structure
 
-```id="q8m2rs"
+```id="l2v8xq"
 task7/
 task15/
 ```
@@ -110,49 +103,33 @@ task15/
 ## ▶️ Execution Steps
 
 1. Compile Java files
-2. Package into a JAR file
-3. Run using Hadoop commands
+2. Create JAR file
+3. Run using Hadoop
 
 ---
 
-## ⚠️ Data Validation & Handling
+## ⚠️ Data Validation
 
-* Skip malformed or incomplete records
+* Skip invalid or malformed records
 * Handle missing employees as:
 
-```
+```id="m5z1pl"
 UNKNOWN EMPLOYEE
 ```
 
-* Ensure valid numeric values (salary, bonus, income)
-* Validate age ranges
+* Validate numeric values and age
 
 ---
 
-## 🧪 Testing
+## 🚀 Features
 
-* Verified using sample datasets
-* Designed for large-scale data processing
-
----
-
-## 🚀 Key Features
-
-* ✔️ Scalable MapReduce Implementation
+* ✔️ Scalable MapReduce Design
+* ✔️ Custom Partitioner
 * ✔️ Efficient Data Processing
-* ✔️ Custom Partitioner (Task 15)
-* ✔️ Robust Error Handling
-
----
-
-## ⭐ Future Enhancements
-
-* Real-time processing integration
-* Migration to Apache Spark
-* Data visualization dashboard
+* ✔️ Error Handling
 
 ---
 
 <p align="center">
-  💙 Built for scalable Big Data solutions 💙
+  💙 Built for Big Data Excellence 💙
 </p>
