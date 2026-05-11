@@ -1,0 +1,5 @@
+18-24	Avg Income: 2500
+25-34	Avg Income: 3500
+35-44	Avg Income: 5250
+45-54	Avg Income: 6000
+55+	Avg Income: 6750
