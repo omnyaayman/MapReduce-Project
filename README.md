@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=🚀+MapReduce+Project;Task+7+%7C+Task+15;Big+Data+Processing+using+Hadoop&center=true&width=600&height=60">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=🚀+MapReduce+Project;Task+7+%7C+;Big+Data+Processing+using+Hadoop&center=true&width=600&height=60">
 </p>
 
 ---
@@ -10,44 +10,12 @@ This project demonstrates how **Hadoop MapReduce** can efficiently process large
 
 It focuses on two main operations:
 
-* 🔵 **Task 7: Employee Payroll Join**
 * 🟢 **Task 15: Age Group Partitioning**
 
 The solution is designed to be **scalable**, **robust**, and capable of handling **large datasets (1GB+)** with proper **data validation and error handling**.
 
 ---
 
-## 🔵 Task 7: Employee Payroll Join
-
-### 💡 Concept
-
-Performs a **join operation** between:
-
-* Employee dataset
-* Payroll dataset
-
-### ⚙️ Processing Logic
-
-* Match records using `employeeId`
-* Compute:
-
-  * 💰 Total Pay = baseSalary + bonus
-  * 📈 Max Pay per employee across months
-
-### 📥 Sample Input
-
-```id="3j2m8l"
-EMP01, Nour, Hassan, Engineering
-PR001, EMP01, Jan, 8000, 500
-```
-
-### 📤 Sample Output
-
-```id="q4k1xs"
-EMP01 Nour Hassan,Engineering,Jan,8500,8700
-```
-
----
 
 ## 🟢 Task 15: Age Group Partitioning
 
