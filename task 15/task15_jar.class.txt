@@ -1,0 +1,4 @@
+adding: AgeGroupDriver.class(in = 1542) (out= 829)(deflated 46%)
+adding: AgeGroupMapper.class(in = 2385) (out= 1089)(deflated 54%)
+adding: AgeGroupPartitioner.class(in = 938) (out= 518)(deflated 44%)
+adding: AgeGroupReducer.class(in = 1851) (out= 798)(deflated 56%)
